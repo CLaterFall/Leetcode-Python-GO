@@ -28,3 +28,8 @@ You should return this subtree:
 In the example above, if we want to search the value 5, since there is no node with value 5, we should return NULL.
 
 Note that an empty tree is represented by NULL, therefore you would see the expected output (serialized tree format) as[], not null.
+
+
+## 解题思路
+BST: 二叉搜索树 -- 若左子树不为空，则左子树上的所有节点的值均小于它的根节点的值，若右子树不为空，则右子树上的所有节点的值均大于它的根节点的值。左右字数也均为二叉搜索树。
+故该题只需对根节点，左右子树进行遍历即可。
