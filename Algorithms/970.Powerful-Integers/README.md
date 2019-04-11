@@ -1,6 +1,6 @@
-#[970. Powerful Integers](https://leetcode.com/problems/powerful-integers/)
+# [970. Powerful Integers](https://leetcode.com/problems/powerful-integers/)
 
-##题目
+## 题目
 Given two positive integers x and y, an integer is powerful if it is equal to x^i + y^j for some integers i >= 0 and j >= 0.
 
 Return a list of all powerful integers that have value less than or equal to bound.
@@ -35,7 +35,7 @@ Note:
 - 1 <= y <= 100
 - 0 <= bound <= 10^6
 
-##解题思路
+## 解题思路
 首先求出以x,y为底bound的对数，然后双重循环即可。
 
 
