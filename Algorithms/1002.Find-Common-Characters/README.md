@@ -23,3 +23,7 @@ Note:
 1. 1 <= A.length <= 100
 2. 1 <= A[i].length <= 100
 3. A[i][j] is a lowercase letter
+
+
+## 解题思路
+统计字符串中字符出现字数。
